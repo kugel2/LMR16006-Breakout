@@ -72,17 +72,6 @@ $EndComp
 Wire Wire Line
 	4650 3250 4950 3250
 $Comp
-L C C4
-U 1 1 58E203FB
-P 3650 3350
-F 0 "C4" H 3675 3450 50  0000 L CNN
-F 1 "1µF" H 3675 3250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 3688 3200 50  0001 C CNN
-F 3 "" H 3650 3350 50  0000 C CNN
-	1    3650 3350
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C3
 U 1 1 58E20422
 P 3350 3350
@@ -228,9 +217,6 @@ Wire Wire Line
 	3350 3500 3350 3600
 Connection ~ 3350 3600
 Wire Wire Line
-	3650 3500 3650 3600
-Connection ~ 3650 3600
-Wire Wire Line
 	2550 3100 4950 3100
 Wire Wire Line
 	2550 3100 2550 3000
@@ -243,9 +229,6 @@ Connection ~ 3050 3100
 Wire Wire Line
 	3350 3100 3350 3200
 Connection ~ 3350 3100
-Wire Wire Line
-	3650 3100 3650 3200
-Connection ~ 3650 3100
 $Comp
 L VCC #PWR05
 U 1 1 58E209F4
